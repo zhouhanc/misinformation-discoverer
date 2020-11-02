@@ -6,7 +6,7 @@
 URL redirection is a salient feature for phishing and malware sites. Abusers use redirection to control the information flow and to evade detection. Collecting the redirection trace and discovering final URLs that host malicious artifacts is thus not an easy task. One challenge is how to discover entry points, or domains that initiate redirections. Another challenge is how to counteract cloaking techniques including IP-ban, javascript execution and fast flux. Malware Discoverer is designed to handle those challenges.
 
 
-![](image/nycpost_pro_redirection.png)
+![](image/domain_interaction_network.png)
 *Example of one discovered malware campaigns. The entry-level domains (leftmost) use fake news as bait to lure users to click.*
 
 ### How does Malware Discoverer work?
