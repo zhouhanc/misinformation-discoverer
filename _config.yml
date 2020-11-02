@@ -4,4 +4,4 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-
+google_analytics: G-7M0QQ0SK2B
