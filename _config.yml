@@ -1,1 +1,7 @@
+title: Misinformation Discoverer
+description: Proactive misinformation/fake news domain discovery system
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
