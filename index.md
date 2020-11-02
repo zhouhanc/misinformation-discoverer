@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+---
+---
 
-You can use the [editor on GitHub](https://github.com/zhouhanc/misinformation-discoverer/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### What problem does Malware Discoverer address?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+URL redirection is a salient feature for phishing and malware sites. Abusers use redirection to control the information flow and to evade detection. Collecting the redirection trace and discovering final URLs that host malicious artifacts is thus not an easy task. One challenge is how to discover entry points, or domains that initiate redirections. Another challenge is how to counteract cloaking techniques including IP-ban, javascript execution and fast flux. Malware Discoverer is designed to handle those challenges.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![](image/nycpost_pro_redirection.png)
+*Example of one discovered malware campaigns. The entry-level domains (leftmost) use fake news as bait to lure users to click.*
 
-```markdown
-Syntax highlighted code block
+### How does Malware Discoverer work?
 
-# Header 1
-## Header 2
-### Header 3
+Malware Discoverer is powered by an unsupervised discovery system that is able to trace coordinated redirection campaigns. The algorithm includes three components:
+1. A crawler to collect redirection paths
+2. A cluster to identify suspicious domains that share common redirection paths
+3. A search expander to discover more domains co-hosted with suspicious domains
 
-- Bulleted
-- List
+Malware Discoverer is a fully automated system. Currently it is tracking five IP addresses everyday. After the data collection, a python script loads the data, calculates summary statistics, and generates a png of the redirection network (see image above as an example). A daily threat intelligence report is published on this website and sent to subscribers via email.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### What do we analyze in the threat intelligence report?
 
-[Link](url) and ![Image](src)
-```
+Our reports focus on the coordinated redirection behavior of those malware campaigns. We breakdown domains and IPs into three categories: tier one are entry-level domains/IPs, tier two are intermediate redirection hops, and ther three are final landing domains/IPs. For each tier, the report covers:
+* Top 10 domains (registrar, name server, and organization from WHOIS record)
+* Top 10 IPs (hostname, city, country, andorganization from [ipinfo](http://ipinfo.io/){:target="_blank"})
+* Visualization of redirection network, providing full context about the information flow
+* Google Safe Browsing result, Virustotal result
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Current data collections and job status
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhouhanc/misinformation-discoverer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+| Date               | IP           | Andrioid |Chrome | Iphone |
+|:-------------------|:-------------|:---------|:-----|:-------|
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+### How can those threat intelligence benefit me?
+
+Our detection is not designed to be comprehensive. Because first, we are not tracking all IP addresses and domains, and second, even if we do, there are malicious domains that never redirect. Nevertheless, we still believe that Malware Discoverer is a valuable threat intelligence tool -- we find that only less than __1%__ of domains we discovered are labelled by Google Safe Browsing to be malicious. We hope that by sharing our method and data, we can receive more constructive feedback from the community, and together make malware detection more efficient.
+
+We encourage you to take a look at our reports and graphs. If you find them helpful, connect us and we will share you the daily threat intelligence report.
+
+* * *
+
+### Have other ideas? / Want to subscribe to get threat intelligence report? / Contact
+Zhouhan Chen, NYU Center for Data Science, <zc1245@nyu.edu>
+
+
