@@ -24,6 +24,9 @@ To learn more details, please read our [paper](https://cybersafety-workshop.gith
 
 | Date  | Keyword    | (link strength / threshold) | Job Status |
 |:-------|:----------|:---------|:-----|
+20201127 | election | 0.8 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20201127_timeline_usersimilarity_threshold_08_sub_0_node_962.html){:target="_blank"}   |
+20201127 | election | 0.6 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20201127_timeline_usersimilarity_threshold_06_sub_0_node_1935.html){:target="_blank"}   |
+20201127 | election | 0.4 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20201127_timeline_usersimilarity_threshold_04_sub_0_node_2066.html){:target="_blank"}   |
 20201126 | election | 0.8 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20201126_timeline_usersimilarity_threshold_08_sub_0_node_746.html){:target="_blank"}   |
 20201126 | election | 0.6 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20201126_timeline_usersimilarity_threshold_06_sub_0_node_1586.html){:target="_blank"}   |
 20201126 | election | 0.4 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20201126_timeline_usersimilarity_threshold_04_sub_0_node_1740.html){:target="_blank"}   |
