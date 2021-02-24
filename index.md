@@ -3,7 +3,7 @@
 
 ### What problem does Misinformation Discoverer address?
 
-Misinformation is a persistent theat on today's Internet. The content of future misinformation (or fake news) is inherently unpredictable. So how do we discover potential fake news source preemptively? The idea is to focus on non-content signals, such as HTML page layouts or social network patterns. Misinformation Discoverer is an automated discovery system based on this _content-agnostic_ approach. This repository is updated daily with newly discovered potential fake news domains. 
+Misinformation is a persistent theat on today's Internet. The content of future misinformation (or fake news) is inherently unpredictable. So how do we discover potential fake news source preemptively? The idea is to focus on non-content signals, such as HTML page layouts or social network patterns. Misinformation Discoverer is an automated discovery system based on this _content-agnostic_ approach. This repository is updated daily with newly discovered potential fake news domains.
 
 To learn more about our method, please read our [paper](https://cybersafety-workshop.github.io/2020/papers/proactive.pdf){:target="_blank"}. Currently Misinformation Discoverer is tracking domains and tweets related to 2020 US election.
 
@@ -24,6 +24,9 @@ Misinformation Discoverer is powered by a combination of unsupervised domain clu
 ### Current data collections and job status
 
 
+20210224 | election | 0.8 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20210224_timeline_usersimilarity_threshold_08_sub_0_node_235.html){:target="_blank"}   |
+20210224 | election | 0.6 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20210224_timeline_usersimilarity_threshold_06_sub_0_node_485.html){:target="_blank"}   |
+20210224 | election | 0.4 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20210224_timeline_usersimilarity_threshold_04_sub_0_node_564.html){:target="_blank"}   |
 | Date  | Keyword    | (link strength / threshold) | Job Status |
 |:-------|:----------|:---------|:-----|
 20210223 | election | 0.8 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20210223_timeline_usersimilarity_threshold_08_sub_0_node_179.html){:target="_blank"}   |
