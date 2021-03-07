@@ -24,6 +24,9 @@ Misinformation Discoverer is powered by a combination of unsupervised domain clu
 ### Current data collections and job status
 
 
+20210307 | election | 0.8 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20210307_timeline_usersimilarity_threshold_08_sub_0_node_112.html){:target="_blank"}   |
+20210307 | election | 0.6 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20210307_timeline_usersimilarity_threshold_06_sub_0_node_393.html){:target="_blank"}   |
+20210307 | election | 0.4 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20210307_timeline_usersimilarity_threshold_04_sub_0_node_428.html){:target="_blank"}   |
 20210306 | election | 0.8 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20210306_timeline_usersimilarity_threshold_08_sub_0_node_122.html){:target="_blank"}   |
 20210306 | election | 0.6 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20210306_timeline_usersimilarity_threshold_06_sub_0_node_295.html){:target="_blank"}   |
 20210306 | election | 0.4 | ![](https://placehold.it/15/008000/000000?text=+)[result](./daily_report/election_20210306_timeline_usersimilarity_threshold_04_sub_0_node_348.html){:target="_blank"}   |
